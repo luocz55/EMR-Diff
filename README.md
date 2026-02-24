@@ -10,7 +10,6 @@ CVPR 2026: Edge-aware Multimodal Residual Diffusion Model for Hyperspectral Imag
 python==3.11
 
 # Training
-
 请运行 `npm install` 命令
 ```python
 def greet(name):
