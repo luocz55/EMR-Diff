@@ -12,7 +12,7 @@ python==3.11
 # Training
 
 请运行 `npm install` 命令
-\```python
+```python
 def greet(name):
     return f"Hello, {name}!"
-\```
+```
