@@ -6,7 +6,7 @@ CVPR 2026: Edge-aware Multimodal Residual Diffusion Model for Hyperspectral Imag
 # Framework
 ![Paper](EMR-Diff.jpg)
 
-#Installation
+# Installation
 python==3.11
 
-#Training
+# Training
