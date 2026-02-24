@@ -4,4 +4,4 @@ CVPR 2026: Edge-aware Multimodal Residual Diffusion Model for Hyperspectral Imag
 ![Static Badge](https://img.shields.io/badge/Paper-CVPR%202026-brightgreen?style=flat)← click here to read the paper~
 
 # Framework
-![Paper](EMR-Diff.jpg)
+![Paper]([EMR-Diff.jpg](https://github.com/luocz55/EMR-Diff/blob/main/EMR-Diff.jpg))
