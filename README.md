@@ -11,3 +11,4 @@ python==3.11
 
 # Training
 
+请运行 `npm install` 命令
