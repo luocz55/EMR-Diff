@@ -9,8 +9,13 @@ CVPR 2026: Edge-aware Multimodal Residual Diffusion Model for Hyperspectral Imag
 # Installation
 python==3.11
 
-# Training
+# Train
 
 ```python
-python Train_DSP.py
+python Train.py
 ```
+# Test
+```python
+python Test.py
+```
+# Test
