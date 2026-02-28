@@ -1,0 +1,41 @@
+diffusion:
+  params:
+    sf: 8
+    schedule_name: exponential
+    schedule_kwargs:
+      power: 0.3
+    etas_end: 0.999
+    steps: 5
+    min_noise_level: 0.001
+    kappa: 2.0
+    band_dim: 31
+    normalize_input: False
+    latent_flag: None
+
+model:
+  params:
+    image_size: 512
+    in_channels: 34
+    model_channels: 34
+    out_channels: 34
+    channel_mult: [1,1,1,1,1]
+    num_res_blocks: [1,1,1,1,1]
+    dims: 2
+    lqrgb_channels: 34
+
+data:
+  train:
+    params:
+      dir_paths: ['hardvard']
+      gt_size: 512
+  val:
+    params:
+      dir_paths: ['/home/yaost/ResDiffusion/hardvardtest']
+
+
+train:
+  lr:  1e-4          # learning rate
+  batch: [1,1]
+  num_workers: 0
+  microbatch: 1
+  epochs: 2000
