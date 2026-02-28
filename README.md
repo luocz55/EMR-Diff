@@ -28,6 +28,12 @@ data:
   val:
     params:
       dir_paths: ['hardvardtest'] # Put the testing dataset path here
+train:
+  lr:  1e-4          # learning rate
+  batch: [1,1]       #[train batchsize,test batchsize]
+  num_workers: 0    
+  microbatch: 1   
+  epochs: 2000       #[train epochs]
 ```
 
 # Train
