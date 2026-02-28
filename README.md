@@ -7,6 +7,7 @@ CVPR 2026: Edge-aware Multimodal Residual Diffusion Model for Hyperspectral Imag
 ![Paper](EMR-Diff.jpg)
 
 # Installation
+```
 python==3.11
 omegaconf==2.3.0
 tqdm==4.65.2
@@ -14,6 +15,7 @@ thop==0.1.1
 scipy==1.16.0
 torchmetrics==1.7.2
 numpy==1.26.4
+```
 
 # Parameter settings
 You can adjust the model parameters at `config/5_step_EMRDiff.yaml`
