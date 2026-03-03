@@ -8,7 +8,6 @@ import numpy as np
 import torch.nn as nn
 import scipy.io as sio
 from functools import partial
-from edgeconstrin import *
 import h5py
 import torch.nn.functional as nF
 from core import imresize,gaussian_blur
@@ -88,3 +87,4 @@ class DataloaderSimpleTest(Dataset):
         self.lq = lq.float()
         self.rgb = rgb.float()
         return  self.gt,  self.lq , self.rgb
+
