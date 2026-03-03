@@ -1,7 +1,6 @@
 """
 Various utilities for neural networks.
 """
-from FDCONV import FDConv
 import math
 
 import torch as th
