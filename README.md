@@ -28,7 +28,15 @@ train:
   batch: [1,1]       #[train batchsize,test batchsize]
   num_workers: 0
   microbatch: 1
-  epochs: 2000       #[train epochs]
+  epochs: 3000       # train epochs
+  test_frequency: 100  # Testing frequency during training
+```
+
+You can adjust the save location at `model/ResShift_model.py`
+```
+    sio.savemat(f'xiaorong/{img_index}.mat', mat_data) # Output image saved during testing
+    ......
+    save_checkpoint(self.Net, i + 1,'harvard') # Save the model of the current round
 ```
 
 # Train
