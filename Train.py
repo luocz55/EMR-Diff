@@ -7,5 +7,5 @@ if __name__ == "__main__":
     path = r"config/5_step_EMRDiff.yaml"
     configs = OmegaConf.load(path)      
     Trainer = ResShiftTrainer(configs=configs)
-    Trainer.train(3000,100)  #verboser : test frequency
+    Trainer.train(configs.train.epochs,configs.train.test_frequency)  #verboser : test frequency
 
