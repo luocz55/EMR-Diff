@@ -36,7 +36,7 @@ You can adjust the save location at `model/ResShift_model.py`
 ```
     sio.savemat(f'xiaorong/{img_index}.mat', mat_data) # Output image saved during testing
     ......
-    save_checkpoint(self.Net, i + 1,'harvard') # Save the model of the current round
+    save_checkpoint(self.Net, i + 1,'harvard') # Save the model of the current epoch
 ```
 
 # Train
