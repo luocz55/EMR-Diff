@@ -32,10 +32,10 @@ data:
     params:
       dir_paths: ['/home/yaost/ResDiffusion/hardvardtest']
 
-
 train:
   lr:  1e-4          # learning rate
   batch: [1,1]
   num_workers: 0
   microbatch: 1
   epochs: 3000
+  test_frequency: 100
