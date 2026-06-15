@@ -1,5 +1,5 @@
 # EMR-Diff
-![Static Badge](https://img.shields.io/badge/Paper-CVPR%202026-brightgreen?style=flat)← click here to read the paper~
+![Static Badge]([https://img.shields.io/badge/Paper-CVPR%202026-brightgreen?style=flat](https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_EMR-Diff_Edge-aware_Multimodal_Residual_Diffusion_Model_for_Hyperspectral_Image_Super-resolution_CVPR_2026_paper.pdf))← click here to read the paper~
 
 # Installation
 ```
