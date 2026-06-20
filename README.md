@@ -40,7 +40,7 @@ You can adjust the save location at `model/ResShift_model.py`
 ```
 Data preprocessing at dataset_loader/dataloader.py
 ```
-Chikusei dataset's SRF can be obtained through SRF_made.py interpolation
+Chikusei dataset's SRF can be obtained through SRF/SRF_made.py interpolation
 ```
 # Train
 ```python
