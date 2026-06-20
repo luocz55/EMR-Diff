@@ -38,9 +38,9 @@ You can adjust the save location at `model/ResShift_model.py`
     ......
     save_checkpoint(self.Net, i + 1,'harvard') # Save the model of the current epoch
 ```
-Data preprocessing at 
+Data preprocessing at dataset_loader/dataloader.py
 ```
-dataset_loader/dataloader.py
+Chikusei dataset's SRF can be obtained through SRF_made.py interpolation
 ```
 # Train
 ```python
