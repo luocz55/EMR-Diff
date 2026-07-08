@@ -29,7 +29,7 @@ class Edge(nn.Module):
         min_val = edge_magnitude.view(b, -1).min(dim=1)[0].view(b, 1, 1, 1)
         max_val = edge_magnitude.view(b, -1).max(dim=1)[0].view(b, 1, 1, 1)
         edge_map = (edge_magnitude - min_val) / (max_val - min_val )
-        return edge_map
+        return edge_map + 1.0
     def forward(self,rgb):
         edge_map = self.compute_edge_map(rgb)
         return  edge_map
